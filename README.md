@@ -1,7 +1,7 @@
 # Campus Multiplataforma
 
 <p align="center">
-  <img src="./cover.png" alt="Campus Multiplataforma Logo" width="300">
+  <img src="./cover.png" alt="Campus Multiplataforma Logo">
 </p>
 
 ## Descrição

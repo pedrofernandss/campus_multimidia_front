@@ -14,8 +14,11 @@ Este projeto está sendo desenvolvido com **React Native** no front-end, utiliza
 
 ## Integrantes
 
-- **Pedro Henrique** - Engenharia de Software, Universidade de Brasília
-- **Pedro Fernandes** - Ciências da Computação, Universidade de Brasília
+- **Pedro Henrique** - Engenharia de Software, Universidade de Brasília  
+  [LinkedIn](https://www.linkedin.com/in/pedro-henrique-monteiro-nascimento-069b0b2b6) | [GitHub](https://github.com/pedronascimentos)
+
+- **Pedro Fernandes** - Ciências da Computação, Universidade de Brasília  
+  [LinkedIn](https://www.linkedin.com/in/pedrofernandss) | [GitHub](https://github.com/pedrofernandss)
 
 ## Tecnologias Utilizadas
 
@@ -31,7 +34,6 @@ Este projeto está sendo desenvolvido com **React Native** no front-end, utiliza
 - **Python** (para integração de IA)
 
 ## Estrutura do Projeto
-
 
 ## Contribuições
 

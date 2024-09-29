@@ -1,5 +1,5 @@
 {
-  "name": "Campus",
+  "name": "campus",
   "icon": "./assets/images/campus-icon.png",
   "main": "expo-router/entry",
   "version": "1.0.0",

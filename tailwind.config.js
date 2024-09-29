@@ -13,10 +13,10 @@ module.exports = {
         purple: '#2800F2'
       },
       fontFamily: {
-        pregular: 'Palanquin-Regular',
-        psemibold: 'Palanquin-SemiBold',
-        pbold: 'Palanquin-Bold'
-      }
+        pregular: ["Palanquin-Regular", "sans-serif"],
+        psemibold: ["Palanquin-SemiBold", "sans-serif"],
+        pbold: ["Palanquin-Bold", "sans-serif"],
+      },
     },
   },
   plugins: [],

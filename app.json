@@ -4,13 +4,13 @@
     "slug": "campus_multimidia_front",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/campus-icon.png",
+    "icon": "./assets/icons/campus-icon.png",
     "scheme": "campus",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./assets/images/campus-logo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#6C0318"
     },
     "ios": {
       "supportsTablet": true

@@ -8,7 +8,7 @@
     "scheme": "campus",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/images/campus-logo.png",
+      "image": "./assets/images/campusplash.png",
       "resizeMode": "contain",
       "backgroundColor": "#6C0318"
     },

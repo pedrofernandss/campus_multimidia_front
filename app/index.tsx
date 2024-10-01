@@ -1,4 +1,5 @@
 import Header from "@/components/header";
+import { StatusBar } from "expo-status-bar";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function App() {
@@ -6,6 +7,7 @@ export default function App() {
     <SafeAreaView className="bg-primary h-full">
       <Header />
 
+      <StatusBar backgroundColor='bg-campusRed' style='light' />
     </SafeAreaView>
   );
 }

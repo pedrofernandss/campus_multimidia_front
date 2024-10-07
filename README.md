@@ -33,9 +33,43 @@ Este projeto está sendo desenvolvido com **React Native** no front-end, utiliza
 - **Docker**
 - **Python** (para integração de IA)
 
-## Estrutura do Projeto
+## Como Rodar o Projeto
 
-## Contribuições
+### 1. Clonar o repositório:
+```bash
+git clone https://github.com/seu-usuario/campus_multiplataforma.git
+```
+
+### 2. Acessar o diretório do projeto:
+```bash
+cd campus_multiplataforma/
+```
+
+### 3. Alterar o Dockerfile:
+No Dockerfile, altere a variável de ambiente `REACT_NATIVE_PACKAGER_HOSTNAME` para o **IP da sua máquina local**.
+
+```dockerfile
+ENV REACT_NATIVE_PACKAGER_HOSTNAME="SEU_IP_LOCAL"
+```
+
+Isso permite que o Expo se comunique corretamente com o dispositivo.
+
+### 4. Construir a imagem Docker:
+```bash
+docker build -t campusmultiplataforma-front .
+```
+
+### 5. Iniciar o container e entrar como root:
+```bash
+docker run -it --rm -p 8081:8081 -p 19006:19006 --user root campusmultiplataforma-front /bin/bash
+```
+
+
+### 6. Acessar o app no celular:
+- **Baixe o app Expo Go** (iOS/Android).
+- Escaneie o QR Code gerado pelo Expo.
+- Certifique-se de que o celular e o computador estão na mesma rede local.
+
 
 Contribuições são bem-vindas! Para reportar bugs ou sugerir melhorias, por favor, abra uma **issue** ou envie um **pull request**.
 

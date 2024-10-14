@@ -4,11 +4,11 @@
     "slug": "campus_multimidia_front",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icons/campus-icon.png",
+    "icon": "./src/assets/icons/campus-icon.png",
     "scheme": "campus",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/images/campusplash.png",
+      "image": "./src/assets/images/campusplash.png",
       "resizeMode": "contain",
       "backgroundColor": "#6C0318"
     },
@@ -17,14 +17,14 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/icons/campus-icon.png",
+        "foregroundImage": "./src/assets/icons/campus-icon.png",
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/icons/campus-icon.png"
+      "favicon": "./src/assets/icons/campus-icon.png"
     },
     "plugins": [
       "expo-router"

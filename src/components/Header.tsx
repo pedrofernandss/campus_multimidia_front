@@ -1,6 +1,6 @@
-import React from 'react'
-import { TouchableOpacity, Image, View } from 'react-native'
-import { icons, images } from '../constants'
+import React from 'react';
+import { TouchableOpacity, Image, View } from 'react-native';
+import { icons, images } from '../constants';
 
 const Header = () => {
   return (
